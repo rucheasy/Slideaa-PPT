@@ -42,12 +42,25 @@ Slideaa/
 
 ## API  
 
-### Endpoint  
-POST /preview  
+Setup
+1. Clone the repository
+git clone https://github.com/your-username/slideai.git
+cd slideai
+2. Setup Backend
+cd backend
+npm install        # or pip install -r requirements.txt
+npm start          # or python app.py
+3. Setup Frontend
+cd frontend
+npm install
+npm start
+4. Run Application
 
-### Request  
-```json
-{
-  "topic": "Artificial Intelligence",
-  "slides": 5
-}
+Open http://localhost:3000
+
+Future Improvements
+AI prompting for customizing slide content, tone, and structure
+Custom slide templates and design themes
+User-controlled editing of generated slides
+Authentication system
+Cloud deployment
