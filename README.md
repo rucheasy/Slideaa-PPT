@@ -58,9 +58,9 @@ npm start
 
 Open http://localhost:3000
 
-Future Improvements
-AI prompting for customizing slide content, tone, and structure
-Custom slide templates and design themes
-User-controlled editing of generated slides
-Authentication system
-Cloud deployment
+# Future Improvements
+- AI prompting for customizing slide content, tone, and structure
+- Custom slide templates and design themes
+- User-controlled editing of generated slides
+- Authentication system
+- Cloud deployment
