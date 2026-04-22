@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  width: 400px;
+}
+
+input, select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  cursor: pointer;
+}
+
+.slide {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
